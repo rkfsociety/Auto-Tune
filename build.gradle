@@ -1,6 +1,6 @@
 plugins {
     id 'java'
-    id 'com.github.johnrengelman.shadow' version '7.1.2'
+    id 'com.github.johnrengelman.shadow' version '8.1.1'
 }
 
 group 'unprotesting.com.github'
@@ -10,7 +10,7 @@ ext {
     jettyVersion = '11.0.15'
     lombokVersion = '1.18.28'
     adventureVersion = '4.14.0'
-    paperMCVersion = '1.20-R0.1-SNAPSHOT'
+    paperMCVersion = '1.20.1-R0.1-SNAPSHOT'
     bstatsVersion = '3.0.0'
     mapdbVersion = '3.0.8'
     ifVersion = '0.10.7'
@@ -71,8 +71,6 @@ shadowJar {
     relocate "com.github.stefvanschie.inventoryframework", "unprotesting.com.github.inventoryframework"
 
     minimize()
-
-    archiveName("Auto-Tune-${project.version}.jar")
 }
 
 artifacts {
