@@ -8,13 +8,13 @@ version '0.14.4'
 
 ext {
     jettyVersion = '11.0.15'
-    lombokVersion = '1.18.24'
-    adventureVersion = '4.11.0'
+    lombokVersion = '1.18.28'
+    adventureVersion = '4.14.0'
     paperMCVersion = '1.20-R0.1-SNAPSHOT'
     bstatsVersion = '3.0.0'
     mapdbVersion = '3.0.8'
     ifVersion = '0.10.7'
-    junitVersion = '5.8.2'
+    junitVersion = '5.10'
     vaultVersion = '1.7.1'
 }
 
