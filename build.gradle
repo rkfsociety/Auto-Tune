@@ -34,14 +34,14 @@ dependencies {
     implementation "org.bstats:bstats-bukkit:$bstatsVersion"
     implementation "org.mapdb:mapdb:$mapdbVersion"
     implementation "com.github.stefvanschie.inventoryframework:IF:$ifVersion"
-    
+    implementation "org.eclipse.jetty:jetty-server:$jettyVersion"
+    implementation "org.eclipse.jetty:jetty-servlet:$jettyVersion"
+
     compileOnly "net.kyori:adventure-text-minimessage:$adventureVersion"
     compileOnly "net.kyori:adventure-api:$adventureVersion"
     compileOnly "io.papermc.paper:paper-api:$paperMCVersion"
-    compileOnly "com.github.milkbowl:VaultAPI:$vaultVersion"
+    compileOnly "com.github.MilkBowl:VaultAPI:$vaultVersion"
     compileOnly "org.projectlombok:lombok:$lombokVersion"
-    compileOnly "org.eclipse.jetty:jetty-server:$jettyVersion"
-    compileOnly "org.eclipse.jetty:jetty-servlet:$jettyVersion"
 
     annotationProcessor "org.projectlombok:lombok:$lombokVersion"
 }
